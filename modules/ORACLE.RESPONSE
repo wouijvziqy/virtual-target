@@ -1,0 +1,6 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Connection: close
+Server: Oracle-Application-Server-10g/10.1.2.3.0 Oracle-HTTP-Server OracleAS-Web-Cache-10g/10.1.2.3.0
+
+<h1>Oracle</h1>

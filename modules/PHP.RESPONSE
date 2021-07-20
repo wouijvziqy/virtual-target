@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sun, 04 Jul 2021 05:03:07 GMT
+Server: Apache/2.2.34 mod_ssl/2.1.34 OpenSSL/1.0.2 mod_fcgid/2.0.7
+X-Powered-By: PHP/5.2.17
+X-UA-Compatible: IE=EmulateIE7
+Connection: close
+Content-Type: text/html
+Content-Length: 100
+
+<h1>PHP</h1>

@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/html
+Date: Sun, 04 Jul 2021 06:55:01 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+<h1>Nginx</h1>

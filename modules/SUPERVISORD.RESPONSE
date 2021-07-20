@@ -1,0 +1,48 @@
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=utf-8
+Pragma: no-cache
+Server: Medusa/1.12
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>Supervisor Status</title>
+  <link href="stylesheets/supervisor.css" rel="stylesheet" type="text/css" />
+  <link href="images/icon.png" rel="icon" type="image/png" />
+</head>
+<body>
+<div id="wrapper">
+
+  <div id="header">
+    <img alt="Supervisor status" src="images/supervisor.gif" />
+  </div>
+
+  <div>
+    <div class="hidden">#</div>
+
+    <form action="index.html" method="post">
+      <ul class="clr" id="buttons">
+        <li class="action-button"><a href="index.html?action=refresh">Refresh</a></li>
+        <li class="action-button"><a href="index.html?action=restartall">Restart All</a></li>
+        <li class="action-button"><a href="index.html?action=stopall">Stop All</a></li>
+      </ul>
+
+      No programs to manage</form>
+
+  </div>
+
+  <div class="push">
+  </div>
+</div>
+
+<div class="clr" id="footer">
+  <div class="left">
+    <a href="http://supervisord.org">Supervisor</a> <span>4.2.2</span>
+  </div>
+  <div class="right">
+    &copy; 2006-<span>2021</span> <strong><a href="http://agendaless.com/">Agendaless Consulting and Contributors</a></strong>
+  </div>
+</div>
+</body>
+</html>

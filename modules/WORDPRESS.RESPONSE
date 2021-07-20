@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/html; charset=UTF-8
+Server: Microsoft-IIS/8.5
+X-Powered-By: PHP/7.4
+
+test
+<meta name="generator" content="WordPress 4.8.17" />
+	<style type="text/css" id="custom-theme-colors" >
+test
